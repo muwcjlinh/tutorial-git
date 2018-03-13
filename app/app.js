@@ -8,7 +8,11 @@ app.set('views', 'app/views');
 app.locals.siteTitle = "Git test";
 
 app.use(require('./routes/index'));
+
 app.use(require('./routes/about'));
+
+app.use(require('./routes/branch4'));
+
 
 app.get('/', function(req, res) {
     res.send("Hello world");
