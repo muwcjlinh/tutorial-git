@@ -8,6 +8,7 @@ app.set('views', 'app/views');
 app.locals.siteTitle = "Git test";
 
 app.use(require('./routes/index'));
+app.use(require('./routes/about'));
 
 var server = app.listen(app.get('port'), function() {
     console.log("Server listening on " + app.get('port'));
