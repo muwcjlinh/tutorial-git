@@ -1,0 +1,23 @@
+{
+  "name": "git-tutorial",
+  "version": "1.0.0",
+  "description": "git",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/muwcjlinh/tutorial-git.git"
+  },
+  "author": "RyanG",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/muwcjlinh/tutorial-git/issues"
+  },
+  "homepage": "https://github.com/muwcjlinh/tutorial-git#readme",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.3"
+  }
+}
