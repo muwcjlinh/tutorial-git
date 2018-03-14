@@ -2,7 +2,14 @@ var express = require('express');
 var router = express.Router();
 
 router.get('/branch4', function(req, res) {
-    res.send("Git branch number 4.")
+    var data = req.app.get('teamGSW');
+    var dataGSW = data.GSW;
+
+    res.render('branch4', {
+        "pageTitle": "Branch4",
+        "b4": dataGSW,
+        "pageID": "branch4"
+    });
 });
 
 module.exports = router;
