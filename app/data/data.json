@@ -1,0 +1,34 @@
+{
+    "team": [
+        {
+            "name": "Dung",
+            "gender": "Male",
+            "age": "22",
+            "position": "G"
+        },
+        {
+            "name": "Tung",
+            "gender": "Male",
+            "age": "21",
+            "position": "F"
+        },
+        {
+            "name": "Keo",
+            "gender": "Male",
+            "age": "24",
+            "position": "G"
+        },
+        {
+            "name": "Nam",
+            "gender": "Male",
+            "age": "23",
+            "position": "G"
+        },
+        {
+            "name": "Mam",
+            "gender": "Male",
+            "age": "25",
+            "position": "C"
+        }
+    ]
+}
