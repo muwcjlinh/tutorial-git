@@ -1,0 +1,24 @@
+{
+    "GSW": [
+        {
+            "name": "Curry",
+            "position": "G"
+        },
+        {
+            "name": "Durant",
+            "position": "F"
+        },
+        {
+            "name": "Thomson",
+            "position": "G"
+        },
+        {
+            "name": "Green",
+            "position": "F"
+        },
+        {
+            "name": "Mcgee",
+            "position": "C"
+        }
+    ]
+}
